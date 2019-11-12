@@ -5,26 +5,26 @@
 
 using namespace std;
 
-Music::Music() 
+Music::Music() // calling .h file 
 {
 }
 
-int Music::getType() 
+int Music::getType() // type
 {
   return 2;
 }
 
-char* Music::getArtist() 
+char* Music::getArtist() // sends artist to .h file 
 {
   return artist;
 }
 
-int* Music::getDuration() 
+int* Music::getDuration() // sends duration to .h file
 {
   return &duration;
 }
 
-char* Music::getPub() 
+char* Music::getPub() // sends publisher to .h file
 {
   return pub;
 }

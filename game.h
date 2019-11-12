@@ -6,13 +6,13 @@
 
 using namespace std; 
 
-class Game : public Media
+class Game : public Media // game is a child class of media
 {
  public:
   Game(); 
-  virtual int getType(); 
-  char* getPub(); 
-  float* getRating(); 
+  virtual int getType(); // sorting typr
+  char* getPub();  // pointer to publisher
+  float* getRating(); // pointer to rating
 
  private:  
   char pub[100]; 

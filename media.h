@@ -9,12 +9,12 @@ class Media
 {
  public: 
   Media(); 
-  int* getYear(); 
-  char* getTitle();
-  virtual int getType(); 
+  int* getYear(); // points to year 
+  char* getTitle(); // points to title
+  virtual int getType(); // sorting type
  private: 
-  int year; 
-  char title[20]; 
+  int year; // sorting year
+  char title[20]; // sorting title
 }; 
 
 #endif

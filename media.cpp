@@ -10,19 +10,19 @@ Media::Media() // calls .h file
 
 }
 
-int Media::getType() // sending type to .h
+int Media::getType() // sends type to .h
 {
 
   return 0; 
 }
 
-int* Media::getYear() // sending year to .h
+int* Media::getYear() // sends year to .h
 {
 
   return &year;
 }
 
-char* Media::getTitle() // sending title to .h
+char* Media::getTitle() // sends title to .h
 {
 
   return title; 
